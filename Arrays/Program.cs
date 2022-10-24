@@ -15,6 +15,7 @@ namespace Arrays
             Console.WriteLine();
 
 
+
             // weapons
             // 0 = pistol
             // 1 = shotgun
@@ -23,6 +24,14 @@ namespace Arrays
             // 4 = rocket launcher
             int weapon;
             weapon = 0;
+
+            string[] weaponName;
+            weaponName = new string[5];
+            weaponName[0] = "Pistol";
+            weaponName[1] = "Shotgun";
+            weaponName[2] = "Rifle";
+            weaponName[3] = "Sniper";
+            weaponName[4] = "Rocket Launcher";
 
             // ammo array
             int[] ammo;
@@ -36,16 +45,19 @@ namespace Arrays
 
             // simulated gameplay
             Console.WriteLine(ammo[weapon]);
+            Console.WriteLine(weaponName[weapon]);
             weapon = 3;
+
             Console.WriteLine(ammo[weapon]);
+            Console.WriteLine(weaponName[weapon]);
 
             Console.ReadKey(true);
 
         }
 
-        static void ShowCurrentWeaponAmmo()
+        static void Fire()
         {
-
+            
         }
 
 
