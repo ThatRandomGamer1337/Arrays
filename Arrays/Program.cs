@@ -62,17 +62,6 @@ namespace Arrays
 
         }
 
-        static void Display()
-        {
-
-        }
-
-        static void Fire()
-        {
-            
-        }
-
-
 
     }
 }
