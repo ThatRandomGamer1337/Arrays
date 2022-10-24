@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Arrays
 {
+
     internal class Program
     {
+        
         static void Main(string[] args)
         {
 
@@ -43,15 +45,25 @@ namespace Arrays
             ammo[4] = 10; // rocket launcher
 
 
-            // simulated gameplay
-            Console.WriteLine(ammo[weapon]);
+            // simulated gameplay / test
+           
             Console.WriteLine(weaponName[weapon]);
+            Console.WriteLine(ammo[weapon]);
+            Console.WriteLine();
+
             weapon = 3;
 
-            Console.WriteLine(ammo[weapon]);
             Console.WriteLine(weaponName[weapon]);
+            Console.WriteLine(ammo[weapon]);
+            Console.WriteLine();
+
 
             Console.ReadKey(true);
+
+        }
+
+        static void Display()
+        {
 
         }
 
