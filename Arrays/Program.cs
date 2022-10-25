@@ -16,8 +16,6 @@ namespace Arrays
             Console.WriteLine("Arrays");
             Console.WriteLine();
 
-
-
             // weapons
             // 0 = pistol
             // 1 = shotgun
