@@ -29,8 +29,8 @@ namespace Arrays
             weaponName = new string[5];
             weaponName[0] = "Pistol";
             weaponName[1] = "Shotgun";
-            weaponName[2] = "Rifle";
-            weaponName[3] = "Sniper";
+            weaponName[2] = "Assault Rifle";
+            weaponName[3] = "Sniper Rifle";
             weaponName[4] = "Rocket Launcher";
 
             // ammo array
@@ -49,12 +49,35 @@ namespace Arrays
             Console.WriteLine(ammo[weapon]);
             Console.WriteLine();
 
+            weapon = 1;
+
+            Console.WriteLine(weaponName[weapon]);
+            Console.WriteLine(ammo[weapon]);
+            Console.WriteLine();
+
+            weapon = 2;
+
+            Console.WriteLine(weaponName[weapon]);
+            Console.WriteLine(ammo[weapon]);
+            Console.WriteLine();
+
             weapon = 3;
 
             Console.WriteLine(weaponName[weapon]);
             Console.WriteLine(ammo[weapon]);
             Console.WriteLine();
 
+            weapon = 4;
+
+            Console.WriteLine(weaponName[weapon]);
+            Console.WriteLine(ammo[weapon]);
+            Console.WriteLine();
+
+            weapon = 0;
+
+            Console.WriteLine(weaponName[weapon]);
+            Console.WriteLine(ammo[weapon]);
+            Console.WriteLine();
 
             Console.ReadKey(true);
 
